@@ -1,0 +1,15 @@
+[user]
+	name = Alice Rose
+	email = hello@alicerose.io
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+    praise = blame
+[push]
+	default = matching
+[core]
+	excludesfile = /Users/alice/.gitignore_global
+[fetch]
+	prune = true
