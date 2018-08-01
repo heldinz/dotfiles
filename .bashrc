@@ -77,7 +77,7 @@ export PATH=${PATH}:/Users/alice/bin
 export EDITOR='vim'
 
 source ~/.git-prompt.sh
-source ~/.git-completion.sh
+source ~/.git-completion.bash
 
 VIOLET="\[\033[0;35m\]"
 YELLOW="\[\033[1;33m\]"
