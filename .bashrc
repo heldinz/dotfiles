@@ -73,16 +73,16 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export PATH=${PATH}:/Users/alice/bin
-export EDITOR='vim'
-
+# git tools (https://github.com/git/git/tree/master/contrib/completion)
 source ~/.git-prompt.sh
 source ~/.git-completion.bash
 
+# Define colors used in prompt
 VIOLET="\[\033[0;35m\]"
 YELLOW="\[\033[1;33m\]"
 GREEN="\[\e[32;1m\]"
 
+# Add git branch and state to prompt, with colors
 GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_SHOWUPSTREAM=auto
 PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\e[0m\]$YELLOW\u\[\033[00m\]:\[\033[01;34m\]\w$VIOLET\$(__git_ps1 \" [%s]\")\[\e[0m\]\$ "
@@ -93,3 +93,10 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 # Python
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# thefuck (https://github.com/nvbn/thefuck)
+eval $(thefuck --alias)
+
+# exports
+export PATH=${PATH}:/Users/alice/bin
+export EDITOR='vim'
