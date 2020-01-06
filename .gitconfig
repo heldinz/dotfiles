@@ -6,7 +6,10 @@
 	br = branch
 	ci = commit
 	st = status
-    praise = blame
+        praise = blame
+        ap = add -p
+        up = push -u origin HEAD
+        pushf = push -u origin HEAD --force-with-lease
 [push]
 	default = matching
 [core]
