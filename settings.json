@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Night Owl",
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "javascript.validate.enable": false
+}
