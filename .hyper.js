@@ -39,7 +39,7 @@ module.exports = {
     cursorBlink: false,
 
     // color of the text
-    foregroundColor: '#00ff00',
+    foregroundColor: '#00c200',
 
     // terminal background color
     // opacity is only supported on macOS
@@ -158,4 +158,3 @@ module.exports = {
     // 'window:devtools': 'cmd+alt+o',
   },
 };
-
