@@ -11,9 +11,11 @@ My bash, git, and editor dotfiles.
 ## Switching to a new machine
 
 - Install applications via [`komputer-maschine`](https://github.com/heldinz/komputer-maschine)
-- Install Magnet via the App Store
+- Update bash, git, and Hyper files: `cp .bash* .git* .hyper.js ~/`
+- Update .ssh config: `cp .ssh/config ~/.ssh/`
 - Install VS Code extensions with `cat code_extensions.txt | xargs -n 1 code --install-extension`
 - Update VS Code settings with `cp settings.json ~/Library/Application\ Support/Code/User/`
+- Install Magnet via the App Store
 - In Safari, go to Preferences → Advanced → Press Tab to highlight each item on a webpage and check the option.
 
 
