@@ -3,16 +3,22 @@
 My bash, git, and editor dotfiles.
 
 
-## Dependencies
-
-- Install applications via [`komputer-maschine`](https://github.com/heldinz/komputer-maschine)
+## Prerequisites
 - `git-completion.bash` and `git-prompt.sh` from https://github.com/git/git/tree/master/contrib/completion
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 
-## Additional Tasks
+## Switching to a new machine
 
+- Install applications via [`komputer-maschine`](https://github.com/heldinz/komputer-maschine)
 - Install Magnet via the App Store
 - Install VS Code extensions with `cat code_extensions.txt | xargs -n 1 code --install-extension`
 - Update VS Code settings with `cp settings.json ~/Library/Application\ Support/Code/User/`
 - In Safari, go to Preferences → Advanced → Press Tab to highlight each item on a webpage and check the option.
+
+
+## Keeping VS Code files up-to-date
+
+From the project root:
+- Extensions: `code --list-extensions > code_extensions.txt`
+- Settings: `cp ~/Library/Application\ Support/Code/User/settings.json .`
