@@ -1,7 +1,10 @@
 CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 EditorConfig.EditorConfig
+esbenp.prettier-vscode
+JamesBirtles.svelte-vscode
 ms-python.python
 sdras.night-owl
+stylelint.vscode-stylelint
 sysoev.vscode-open-in-github
 WallabyJs.quokka-vscode
