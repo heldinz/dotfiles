@@ -1,9 +1,12 @@
+austenc.tailwind-docs
+bradlc.vscode-tailwindcss
 CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 JamesBirtles.svelte-vscode
 ms-python.python
+ms-vscode.csharp
 sdras.night-owl
 stylelint.vscode-stylelint
 sysoev.vscode-open-in-github
