@@ -5,9 +5,11 @@ dbaeumer.vscode-eslint
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 JamesBirtles.svelte-vscode
+ms-dotnettools.csharp
 ms-python.python
-ms-vscode.csharp
+ms-toolsai.jupyter
+ronnidc.nunjucks
+sainoba.px-to-rem
 sdras.night-owl
 stylelint.vscode-stylelint
 sysoev.vscode-open-in-github
-WallabyJs.quokka-vscode

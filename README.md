@@ -18,7 +18,7 @@ My bash, git, and editor dotfiles.
 - Install Node and npm from https://nodejs.org/
 - Install npm-merge-driver with `npx npm-merge-driver install --global`
 - Install Magnet via the App Store
-- In Safari, go to Preferences → Advanced → Press Tab to highlight each item on a webpage and check the option.
+- In Safari, go to Preferences → Advanced → “Press Tab to highlight each item on a webpage” and check the option.
 
 
 ## Keeping VS Code files up-to-date

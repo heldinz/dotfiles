@@ -1,14 +1,26 @@
 {
-    "workbench.colorTheme": "Night Owl",
-    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true,
+    "css.validate": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "javascript.validate.enable": false,
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "editor.insertSpaces": false,
+    "editor.minimap.enabled": true,
     "editor.tabSize": 2,
-    "css.validate": false,
+    "extensions.ignoreRecommendations": true,
+    "files.associations": {
+        "*.html": "html"
+    },
+    "git.enabled": false,
+    "javascript.validate.enable": false,
     "less.validate": false,
     "scss.validate": false,
+    "update.showReleaseNotes": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Night Owl",
+    "workbench.enableExperiments": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false
 }
