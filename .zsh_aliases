@@ -1,0 +1,20 @@
+# typos
+alias giti='git'
+
+# venv
+alias ve='source venv/bin/activate'
+alias vpip='python venv/bin/pip'
+
+# sudo
+alias fucking=sudo
+
+# zsh
+alias change='code ~/.zshrc'
+alias update='exec zsh'
+
+# git
+alias tomain='git branch -m master main && git fetch origin && git branch -u origin/main main'
+
+# ls
+alias l='colorls --group-directories-first --almost-all'
+alias ll='colorls --group-directories-first --almost-all --long' # detailed list view
