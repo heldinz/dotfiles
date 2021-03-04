@@ -1,0 +1,44 @@
+# Main Colors
+unrecognized_file: "#addb67" # yellow
+recognized_file:   "#22da6e" # green
+dir:               "#82aaff" # blue
+
+# Link
+dead_link: "#EF5350" # red
+link:      "#21c7a8" # cyan
+
+# special files
+socket:    "#22da6e" # green
+blockdev:  "#22da6e" # green
+chardev:   "#22da6e" # green
+
+# Access Modes
+write:     darkkhaki
+read:      "#22da6e" # green
+exec:      "#EF5350" # red
+no_access: indianred
+
+# Age
+day_old:     mediumspringgreen
+hour_old:    "#22da6e" # green
+no_modifier: seagreen
+
+# File Size
+file_large:  orange
+file_medium: "#addb67" # yellow
+file_small:  "#ffeb95" # lightYellow
+
+# Random
+report: "#ffffff" # white
+user:   moccasin
+tree:   "#21c7a8" # cyan
+empty:  "#addb67" # yellow
+error:  "#EF5350" # red
+normal: darkkhaki
+
+# Git
+addition:     "#22da6e" # green
+modification: darkkhaki
+deletion:     "#EF5350" # red
+untracked:    darkorange
+unchanged:    forestgreen
