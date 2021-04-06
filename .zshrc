@@ -12,9 +12,6 @@ export EDITOR='nano'
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/Cellar/ruby/3.0.0_1/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH
 
-# thefuck
-eval $(thefuck --alias)
-
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/alice/.oh-my-zsh"
 
@@ -117,8 +114,8 @@ fpath=(~/.zsh $fpath)
 
 # colorls tab completion for flags
 source $(dirname $(gem which colorls))/tab_complete.sh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

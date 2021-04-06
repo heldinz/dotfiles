@@ -15,23 +15,10 @@ else
 fi
 unset CHECK_ZSH_INSTALLED
 
-# Install fonts
-fonts=(
-	MesloLGS%20NF%20Regular.ttf
-	MesloLGS%20NF%20Bold.ttf
-	MesloLGS%20NF%20Italic.ttf
-	MesloLGS%20NF%20Bold%20Italic.ttf
-)
+# Install Ruby gems
+komputer_echo "Installing gems..."
 
-komputer_echo "Installing fonts..."
-
-install_fonts() {
-	cd ~/Library/Fonts
-	for font in "${fonts[@]}"
-		do  curl -O 'https://github.com/romkatv/powerlevel10k-media/raw/master/$font'
-	done
-	cd -
-}
+sudo gem install colorls
 
 # Install formulae
 formulae=(
@@ -47,7 +34,7 @@ install_formula() {
     komputer_echo "$formula already installed. Skipping..."
   else
 		komputer_echo "Installing $formula..."
-    brew install $formula
+    arch -arm64 brew install $formula
   fi
 }
 
