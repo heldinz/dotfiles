@@ -22,5 +22,9 @@
     "workbench.colorTheme": "Night Owl",
     "workbench.enableExperiments": false,
     "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false
+    "workbench.tips.enabled": false,
+    "vscode-pets.petColor": "black",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

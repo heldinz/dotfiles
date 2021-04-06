@@ -8,6 +8,7 @@ esbenp.prettier-vscode
 GitHub.github-vscode-theme
 JamesBirtles.svelte-vscode
 jpoissonnier.vscode-styled-components
+mohsen1.prettify-json
 ms-azuretools.vscode-docker
 ms-dotnettools.csharp
 ms-python.python
@@ -22,6 +23,8 @@ sainoba.px-to-rem
 sdras.night-owl
 stylelint.vscode-stylelint
 sysoev.vscode-open-in-github
+tlahmann.alex-linter
+tonybaloney.vscode-pets
 Tyriar.sort-lines
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug
