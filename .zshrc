@@ -139,4 +139,5 @@ function rename_branch() {
   git branch -m "$old" "$new"
   git fetch origin
   git branch -u origin/"$new" "$new"
+  git remote set-head origin -a
 }
