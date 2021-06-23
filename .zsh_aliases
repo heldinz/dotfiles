@@ -12,9 +12,6 @@ alias fucking=sudo
 alias change='code ~/.zshrc'
 alias update='exec zsh'
 
-# git
-alias tomain='git branch -m master main && git fetch origin && git branch -u origin/main main'
-
 # ls
-alias l='colorls --group-directories-first --almost-all'
-alias ll='colorls --group-directories-first --almost-all --long' # detailed list view
+alias l='arch -x86_64 colorls --group-directories-first --almost-all'
+alias ll='arch -x86_64 colorls --group-directories-first --almost-all --long' # detailed list view

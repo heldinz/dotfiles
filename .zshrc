@@ -119,3 +119,24 @@ source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+function rename_branch() {
+  old="master"
+  new="main"
+
+  if [ "$1" != "" ]
+  then
+      old="$1"
+  fi
+  echo "$old"
+
+  if [ "$2" != "" ]
+  then
+      new="$2"
+  fi
+  echo "$new"
+
+  git branch -m "$old" "$new"
+  git fetch origin
+  git branch -u origin/"$new" "$new"
+}
